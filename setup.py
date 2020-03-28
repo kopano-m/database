@@ -7,7 +7,7 @@ setup(
     license='MIT',
     description='Package to extract data from EDSA created database',
     long_description=open('README.md').read(),
-    install_requires=['numpy','sqlalchemy','botocore','json'],
+    install_requires=['sqlalchemy','botocore'],
     url='https://github.com/kopano-m/database.git',
     author='Kopano Monyobo via EDSA',
     author_email='kopanomonyobo@gmail.com'
