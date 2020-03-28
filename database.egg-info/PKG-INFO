@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: database
+Version: 0.1
+Summary: Package to extract data from EDSA created database
+Home-page: https://github.com/kopano-m/database.git
+Author: Kopano Monyobo via EDSA
+Author-email: kopanomonyobo@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
