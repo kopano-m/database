@@ -1,5 +1,5 @@
 # database
-This Python module holds a model used for uploading data related to the COVID-19 pandemic onto am AWS hosted database. This module is used hand in hand with the sqlalchemy package. The model code was taken from a repository created by Rhida Moosa [here](https://github.com/ridha-explore/coronasa.git) that will house COVID-19 data.
+This Python module holds a model used for uploading data related to the COVID-19 pandemic onto an AWS hosted database. This module is used hand in hand with the sqlalchemy package. The model code was taken from a repository created by Rhida Moosa [here](https://github.com/ridha-explore/coronasa.git) that will house COVID-19 data.
 
 ## Installation
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the database package.
@@ -22,12 +22,12 @@ import pandas as pd
 ```
 To refer to the database tables use the following syntax:
 ```python
-m.'table_name'
+m.table_name
 
 ```
 Syntax for referring to the respective table columns:
 ```python
-m.'table_name'.'column_name'
+m.table_name.column_name
 ```
 
 Syntax for uploading data into a database table:
