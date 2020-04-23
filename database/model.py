@@ -43,6 +43,7 @@ class CasesLocal(Base):
     id = Column(Integer, primary_key=True)
     date = Column(Date)
     confirmed = Column(Integer)
+    recovered = Column(Integer)
     location_id = Column(Integer, ForeignKey('Location.id'))
 
 
