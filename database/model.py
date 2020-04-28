@@ -52,7 +52,6 @@ class Tests(Base):
     id = Column(Integer, primary_key=True)
     date = Column(Date)
     cumulative_tests = Column(Integer)
-    recovered = Column(Integer)
     country_id = Column(Integer, ForeignKey('Country.id'))
 
 
